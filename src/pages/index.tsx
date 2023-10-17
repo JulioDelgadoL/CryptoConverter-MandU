@@ -1,7 +1,7 @@
-// pages/index.tsx
-
 import React, { useEffect, useState } from 'react';
+
 import Splash from '../components/Splash/Splash';
+import Converter from '../components/Converter/Converter';
 
 const Home: React.FC = () => {
   const [loading, setLoading] = useState(true);
@@ -18,10 +18,13 @@ const Home: React.FC = () => {
       {loading ? (
         <Splash />
       ) : (
-        <div className="bg-gray-100 p-4">
-          <h1 className="text-3xl">Bienvenido a CyptoConverter</h1>
-          <p className="text-red-600">Esto es Boilerplate.</p>
-        </div>
+        <>
+          <header className="bg-gray-100 p-4">
+            <h1 className="text-3xl">Bienvenido a CyptoConverter!!!!</h1>
+            <p className="text-red-600">Esto es Boilerplate...</p>
+          </header>
+          <Converter />
+        </>
       )}
     </div>
   );
