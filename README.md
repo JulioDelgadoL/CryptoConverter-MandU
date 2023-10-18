@@ -5,7 +5,7 @@ CryptConverter is a conversion tool that allows users to convert from any Top 10
 Content
 =========
 
- * [Instalation](#Instalation)
+ * [Installation](#installation)
  * [Functionalities](#functionalities)
  * [Structure](#structure)
  * [Upcoming](#upcoming)
@@ -29,17 +29,17 @@ The project allows to swap between any of the Top 100 cryptocurrencies and conve
 
 The tech stack of the project:
 
- -Next.js as the js-based framework
- -TypeScript as the core super-set language
- -Mantine as the UI Library
- -Tailwind as the default CSS framework 
+ - Next.js as the js-based framework
+ - TypeScript as the core super-set language
+ - Mantine as the UI Library
+ - Tailwind as the default CSS framework 
 
 
 The data is handled by:
 
- -React Context API
- -Custom Hooks 
- -React Base Hooks
+ - React Context API
+ - Custom Hooks 
+ - React Base Hooks
 
 
 ### Upcoming
@@ -47,8 +47,8 @@ The data is handled by:
 
 Future contributions include :
  
- -Light-Dark Theme
- -Data Structure Optimization
- -Conversion to all currencies
- -Cryptocoin value charting  
+ - [ ] Light-Dark Theme
+ - [ ] Data Structure Optimization
+ - [ ] Conversion to all currencies
+ - [ ] Cryptocoin value charting  
 
