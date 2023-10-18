@@ -14,15 +14,11 @@ const Home: React.FC = () => {
   }, []);
 
   return (
-    <div>
+    <div className="flex items-center justify-center h-screen bg-gradient-to-r from-green-500 to-blue-500">
       {loading ? (
         <Splash />
       ) : (
         <>
-          <header className="bg-gray-100 p-4">
-            <h1 className="text-3xl">Bienvenido a CyptoConverter!!!!</h1>
-            <p className="text-red-600">Esto es Boilerplate...</p>
-          </header>
           <Converter />
         </>
       )}
